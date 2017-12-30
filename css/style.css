@@ -1,0 +1,334 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+  padding: 0;
+  width:80%;
+  color:#fff;
+  margin: 0 auto; 
+}
+/*section:nth-child(odd){ background-color:#00b1ff; height:800px;}*/
+/*section:nth-child(even){ background-color:#001620; height:730px; }*/
+
+/*Deep Sky Blue */
+.section-first{
+  position: relative;
+  background-color:#00b1ff; 
+  height:800px;
+}
+/*Deep Black Pearl */
+.section-second{
+    position: relative;
+    background-color:#001620;
+    height:730px;
+}
+/*Deep Wishper */
+.section-third{
+    position: relative;
+    background-color:#eeeeee;
+    height:600px;
+}
+.container{
+    width:90%;
+}
+
+.header{
+   height:50px;
+}
+.header img {
+  float: left;
+  height:50px;
+  width:70px;
+}
+.header h3 {
+  position: relative;
+  top: 18px;
+  left: 8px;
+}
+.primary-heading{
+   margin-bottom: 4rem; 
+   padding-top: 30px;
+   font-size: 18rem;
+   font-weight: 400;
+   padding:20px;
+}
+
+.side1
+{
+	color:#fff;
+	margin:0 auto;
+	padding: 20px;
+}
+.side2
+{
+	color:#fff;
+	margin:0 auto;
+	padding: 20px;
+}
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
+
+.upper-first {
+	margin:0 auto;
+    position: absolute;
+    height: 540px;
+    width:840px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
+    left: 50%;
+    top: 80%;
+    transform:translate(-50%, -50%);
+    background-color: black;
+    border-radius: 5px;
+}
+.upper-first img{
+    height: 540px;
+    width:840px;
+}
+
+.upper-second {
+    position: absolute; 
+    height: 435px;
+    width:200px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
+    left: 79.25%;
+    top: 80%;
+    transform:translate(-50%, -50%);
+    background-color: yellow;
+    
+    border-bottom-right-radius:12px; 
+    border-bottom-left-radius:12px;
+}    
+.upper-second img {
+	height: 436px;
+    width:200px;
+    background-size:cover;
+    overflow: hidden;
+    border-bottom-right-radius:12px; 
+    border-bottom-left-radius:12px;
+     }
+.upper-third {
+ 	position: absolute; 
+    height: 476px;
+    width:500px;
+   
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
+    left: 23%;
+    top: 80%;
+    transform:translate(-50%, -50%);
+    border-top-right-radius:6px; 
+    border-bottom-right-radius:6px;
+    background-color: yellow;
+
+ } 
+ .upper-third img{
+    height: 476px;
+    width:500px;
+    background-size:cover;
+    overflow: hidden;
+    border-top-right-radius:6px; 
+    border-bottom-right-radius:6px;
+}   
+
+.upper-fourth {
+    position: absolute; 
+    height: 600px;
+    width:400px;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
+    top:12%;
+    right:4%;
+    border-radius: 7px;
+    background-color: yellow;
+}
+
+.upper-fourth img{
+    height: 600px;
+    width:400px;
+    background-size:cover;
+    overflow: hidden;
+    border-radius: 7px;
+}  
+
+.upper-fifth {
+    position: absolute; 
+    height: 400px;
+    width:200px;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
+    top:16%;
+    right:84%;
+    border-radius: 7px;
+    background-color: red;
+}
+.upper-fifth img{
+    height: 400px;
+    width:200px;
+    background-size:cover;
+    overflow: hidden;
+    border-radius: 7px;
+}  
+ 
+.bottom-content{
+	position: absolute; 
+	height: 500px;
+    width:350px;
+	top:50%;
+	right:5%;
+}
+.left-content{
+    width:350px;
+    position: absolute;
+    color:#000;
+    top:10%;
+    left:5%; 
+}
+.diamond-first {
+    width: 400px;
+    height: 200px;
+    background: yellow;
+/* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 154% 48%;
+    margin: 0 0 10px 310px;
+}
+.diamond-first img{
+	width: 400px;
+    height: 200px;
+}
+
+#diamond-second {
+    width: 400px;
+    height: 200px;
+    background: red;
+/* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 34% 138%;
+    margin: 0 0 10px 310px;
+}
+
+#diamond-third {
+    width: 400px;
+    height: 200px;
+    background: #1eff00;
+/* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 80% 205%;
+    margin: 0 0 10px 310px;
+}
+
+#diamond-fourth {
+    width: 400px;
+    height: 200px;
+    background: blue;
+/* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 50% -100%;
+    margin: 0 0 10px 310px;
+}
+
+#diamond-fifth {
+    width: 400px;
+    height: 200px;
+    background: gray;
+/* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: -80% 130%;
+    margin: 0 0 5px 130px;
+}
+footer{
+    
+    text-align: center;
+    background-color: #001620;
+    color: #fff;
+
+}
+.footermain{
+ width:50%;
+ height:auto;   
+ margin:0 auto;
+ padding:5%;
+}
+.footermain img{
+   margin: 0 auto;
+    height:60px;
+    width:80px;
+
+}
+.footer-btn{
+
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+
+}
