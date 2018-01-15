@@ -1,0 +1,133 @@
+
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+.section-first{
+  height:950px;
+}
+.section-second{
+    height:1250px;
+}
+.section-fourth{
+    height:750px;
+}
+.section-fourth{
+    height:1050px;
+}
+.container {
+    height:2980px;
+    background-color: transparent;
+}
+.secondary-heading{
+   font-size: 36px;
+}
+.top-right-text{
+  width: 100%;
+  float: left;
+  text-align: left;
+  padding-left: 5%;
+}
+.big_diamond {
+      width:70%;
+      margin-top: -7%;
+      
+}
+.small-mob{
+  width:30%;
+  left: 22%;
+  top: 172%;
+}
+
+}
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+.section-first{
+  height:950px;
+}
+.section-second{
+    height:1150px;
+}
+.section-fourth{
+    height:950px;
+}
+
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+.section-first{
+  height:930px;
+}
+.section-second{
+    height:930px;
+}
+
+.section-fourth{
+    height:830px;
+}
+
+}
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px)
+{
+  .section-first{
+  height:950px;
+}
+.section-second{
+    height:830px;
+}
+
+.section-fourth{
+    height:730px;
+}
+.primary-heading{
+   
+   font-size: 46px;
+   
+}
+.small-mob{
+  width:30%;
+  left: 22%;
+  top: 112%;
+}
+}
+
+@media only screen and (max-width: 360px){
+
+  .section-first{
+  height:880px;
+}
+.section-second{
+    height:750px;
+}
+
+.section-fourth{
+    height:700px;
+}
+
+.primary-heading{
+   
+   font-size: 36px;
+   
+}
+.secondary-heading{
+  margin-bottom: 10px;
+   font-size: 32px;
+   font-weight: 400;
+  
+}
+.paragraph {
+  font-size: 16px; 
+  
+}
+.small-mob{
+  width:30%;
+  left: 22%;
+  top: 112%;
+}
+}
+
+
+
+
+
